@@ -1,0 +1,120 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  */
+
+body {
+    height: 100vh;
+}
+
+/*  */
+
+.site-header {
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+/*  */
+
+.site-logo {
+    height: 3.5vh;
+    float: left;
+    margin: 50px;
+    margin-left: 250px;
+}
+
+/*  */
+
+.top-row {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/*  */
+
+.navigation-item{
+    margin-top: 64px;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+
+/*  */
+
+.navigation-shop{
+    margin-top: 64px;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+
+/*  */
+
+.site-background {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: url('https://www.wftv.com/resizer/SMGPBgp4szCYoeRemSXWlTdDkxs=/1200x675/cloudfront-us-east-1.images.arcpublishing.com/cmg/KWBGRRZMQFE5JANM3RCUUGID5E.jpg'); 
+    background-size: cover;
+    transform: scaleX(-1);
+}
+
+/*  */
+
+.bottom-left1{
+    color: white;
+    transform: scaleX(-1);
+    font-size: 20px;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;;
+    text-align: left;
+    position: relative;
+    top: 555px;
+    right: 250px;
+}
+
+/*  */
+
+.bottom-left2{
+    color: white;
+    transform: scaleX(-1);
+    font-size: 50px;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+    text-align: left;
+    position: relative;
+    top: 555px;
+    right: 245px;
+}
+
+/*  */
+
+.bottom-left3{
+    color: white;
+    transform: scaleX(-1);
+    font-size: 17px;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+    text-align: left;
+    position: relative;
+    top: 615px;
+    right: 305px;
+}
+
+/*  */
+
+.reply-box{
+    width: 190px ;
+    height: 60px;
+    border: 2px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    position: relative;
+    left: 77%;
+    top: 61.3%;
+}
